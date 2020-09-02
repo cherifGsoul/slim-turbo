@@ -14,8 +14,8 @@ AppFactory::setContainer($container);
 
 
 $container->set('view', function() {
-	//return Twig::create(dirname(__DIR__) . '/templates', ['cache' => dirname(__DIR__) . '/var/cache/templates']);
-	return Twig::create(dirname(__DIR__) . '/templates', ['cache' => false]);
+	return Twig::create(dirname(__DIR__) . '/templates', ['cache' => dirname(__DIR__) . '/var/cache/templates']);
+	//return Twig::create(dirname(__DIR__) . '/templates', ['cache' => false]);
 });
 
 $app = AppFactory::create();
