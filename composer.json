@@ -1,0 +1,15 @@
+{
+    "name": "cherif_b/slim-turbo",
+    "authors": [
+        {
+            "name": "Cherif BOUCHELAGHEM",
+            "email": "cherif.bouchelaghem@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "laminas/laminas-diactoros": "^2.4",
+        "slim/twig-view": "^3.0",
+        "php-di/php-di": "^6.2"
+    }
+}
